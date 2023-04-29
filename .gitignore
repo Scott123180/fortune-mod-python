@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc/
+*.pyo/
+*.dist-info/
+*.egg-info/
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info
+.eggs/
+*.egg-info/
+logs/
+*.log
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
