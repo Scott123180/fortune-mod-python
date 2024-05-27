@@ -15,7 +15,8 @@ def main():
     file_choices = ['people', 'goedel', 'magic', 'love', 'humorists', 'cookie', 'linuxcookie', 'kids', 'news', 'wisdom',
                     'men-women', 'science', 'education', 'songs-poems', 'art', 'food', 'ascii-art', 'drugs',
                     'miscellaneous', 'ethnic', 'translate-me', 'platitudes', 'zippy', 'startrek', 'fortunes', 'sports',
-                    'politics', 'definitions', 'literature', 'computers', 'pets', 'medicine', 'riddles', 'work', 'law']
+                    'politics', 'definitions', 'literature', 'computers', 'pets', 'medicine', 'riddles', 'work', 'law',
+                    'zen']
 
     file_choice = random.choice(file_choices)
     fortunes = read_fortunes('datfiles/' + file_choice)
